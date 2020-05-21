@@ -170,3 +170,10 @@ Finally, force update your repository:
 To get info on what's going on locally:
 </br >
 `git status`
+
+
+# Hotfix To Origin
+
+To push from one branch to another without pull request (do not do this):
+</br>
+`git push origin <newer_branch>:<older_branch> -f
